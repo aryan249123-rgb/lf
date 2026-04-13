@@ -1,2 +1,7 @@
 docker build -t my-html-app .
 docker run -d -p 8080:80 my-html-app .
+
+docker build -t my-java-app .
+docker run my-java-app .
+
+docker run -d -p 8080:8080 my-java-app .
